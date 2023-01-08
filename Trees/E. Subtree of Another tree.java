@@ -19,7 +19,7 @@ private boolean isSame(TreeNode t1, TreeNode t2) { // takes O(n)
 // Preorder Sequencing - Make Preoder String and compare if the substree is substring on the parent string.
 
 
-public boolean isSubtree(TreeNode s, TreeNode t) {
+public boolean isSubtree(TreeNode s, TreeNode t) {   
   // s
   StringBuilder sb = new StringBuilder();
   preorder(s, sb);
